@@ -28,6 +28,8 @@ module.exports = () => {
         name: "Just Another Text Editor",
         short_name: "JATE",
         description: "A simple text editor that can work offline.",
+        start_url: "/",
+        publicPath: "/",
         icons: [
           {
             src: path.resolve('"src/images/logo.png"'),
